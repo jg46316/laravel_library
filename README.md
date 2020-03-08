@@ -10,6 +10,7 @@ Setup your environment:
 
 Bootstrap the application:
 
+    php artisan key:generate
     php artisan migrate
     php artisan migrate:fresh --seed
 
